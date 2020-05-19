@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>g7</title>
+</head>
+<body>
+	<form method="post" action="http://images.shipdongho.com/test/phieudangky.php">
+		<h2>PHIẾU ĐĂNG KÝ</h2>
+		<label for="hovaten">Họ và tên: </label>
+        <input type="text" id="name" name="hovaten" required>(*)
+
+		<br>Địa chỉ: <input type="text" style="width: 300px">
+		<br>Email: <input type="Email">(*)
+		<br>Giới tính:
+		<input type="radio" name="sex"	value="Nam"> Nam
+		<input type="radio" name="sex" value="Nu"> Nu
+		<br>Tuổi 	<input type="text"> (*)
+		<br>
+		Sở thích: <br>
+		<input type="checkbox" style="margin-left: 50px"> Thể thao <br>
+		<input type="checkbox" style="margin-left: 50px"> Văn học <br>
+		<input type="checkbox" style="margin-left: 50px"> Công nghệ thông tin <br>
+		<input type="checkbox" style="margin-left: 50px"> Lịch sử <br>
+		<input type="checkbox" style="margin-left: 50px"> Game <br>
+
+		<label for="cars">Chuyên ngành: </label>
+		<select name="major" id="">
+			<option value="CNW">Công nghệ web</option>
+			<option value="HTTT">Hệ thống thông tin</option>
+			<option value="KTPM">Kỹ thuật phần mềm</option>
+			<option value="KTMT">Kỹ thuật máy tính</option>
+		</select>
+		<br>
+
+
+		<label for="hinh">Gởi hình:</label>
+		<input type="text" id="hinh" name="hinh">
+		<input type="submit" value="browser">
+		<br>	
+
+		<label for="bio">Yêu cầu:</label> <br>ươ;
+		<textarea name="bio" id="" cols="40" rows="4" wrap="off"></textarea>
+		<br>	
+		<input type="submit" value="Gởi thông tin">
+		<input type="reset" value="Nhập lại">
+
+	</form>
+
+</body>
+</html>
